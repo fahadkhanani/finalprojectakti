@@ -87,7 +87,8 @@
                                         <tr>
                                             <th scope="row">
                                                 <div class="d-flex align-items-center mt-2">
-                                                    <img src="{{asset('public/product/'. $details['image'])}}" class="img-fluid rounded-circle" style="width: 90px; height: 90px;" alt="">
+                                                    <img src="{{asset('product/'. $details['image'])}}"
+                                                    class="img-fluid rounded-circle" style="width: 90px; height: 90px;" alt="">
                                                 </div>
                                             </th>
                                             <td class="py-5">{{$details['name']}}</td>

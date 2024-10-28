@@ -33,7 +33,7 @@
                             <tr class="mt-5 pt-5 border-2">
                                 <th scope="row">
                                     <div class="d-flex align-items-center">
-                                        <img src="{{asset('public/product/'. $details['image'])}}"
+                                        <img src="{{asset('product/'. $details['image'])}}"
                                         class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
                                     </div>
                                 </th>
